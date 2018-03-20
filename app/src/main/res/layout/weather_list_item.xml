@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="100dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:id="@+id/TempMin"
+            android:text="50"
+            android:textSize="50dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/TempMin"
+            android:text="min"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="175dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="175dp"
+            android:layout_height="20dp"
+            android:id="@+id/Date"
+            android:text="today"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/Description"
+            android:layout_width="175dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/Date"
+            android:paddingTop="10dp"
+            android:text="cloudy with a chance of meatballs"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="100dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:id="@+id/TempMax"
+            android:text="75"
+            android:textSize="50dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/TempMax"
+            android:text="max"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+</LinearLayout
+ >
